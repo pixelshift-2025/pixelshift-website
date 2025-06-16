@@ -49,7 +49,7 @@ export default function Contact() {
               Get In <span className="text-fuchsia-pink">Touch</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ready to transform your digital presence? Let's discuss how we can help 
+              Ready to transform your digital presence? Let&apos;s discuss how we can help 
               shift your business into the spotlight.
             </p>
           </motion.div>
@@ -70,7 +70,7 @@ export default function Contact() {
                   >
                     <div className="text-6xl mb-4">✨</div>
                     <h3 className="text-2xl font-bold text-chinese-black mb-2">Thank You!</h3>
-                    <p className="text-gray-600">We'll get back to you within 24 hours.</p>
+                    <p className="text-gray-600">We&apos;ll get back to you within 24 hours.</p>
                   </motion.div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-6">
@@ -141,9 +141,9 @@ export default function Contact() {
               className="space-y-8"
             >
               <div>
-                <h2 className="text-3xl font-bold mb-6 text-chinese-black">Let's Talk</h2>
+                <h2 className="text-3xl font-bold mb-6 text-chinese-black">Let&apos;s Talk</h2>
                 <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                  We're here to help you navigate the digital landscape and achieve your goals. 
+                  We&apos;re here to help you navigate the digital landscape and achieve your goals. 
                   Reach out to us through any of the channels below.
                 </p>
               </div>

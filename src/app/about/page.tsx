@@ -61,8 +61,8 @@ export default function About() {
             <div className="text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-chinese-black">Our Mission</h2>
               <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                To empower businesses of all sizes with digital solutions that not only meet today's 
-                challenges but anticipate tomorrow's opportunities. We believe in the power of creative 
+                To empower businesses of all sizes with digital solutions that not only meet today&apos;s 
+                challenges but anticipate tomorrow&apos;s opportunities. We believe in the power of creative 
                 thinking combined with strategic execution to create lasting impact.
               </p>
             </div>
