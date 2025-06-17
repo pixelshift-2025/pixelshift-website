@@ -9,12 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'fuchsia-pink': '#FF85E6',
-        'green-yellow': '#E8FF65',
-        'blue-purple': '#B59BFF',
-        'teal-deer': '#9AF8E0',
-        'cultured': '#F4F4F5',
-        'chinese-black': '#111111',
+        'fuchsia-pink': '#FF12CE',
+        'green-yellow': '#D9FF12',
+        'blue-purple': '#9D12FF',
+        'teal-deer': '#84FF5A',
+        'cultured': '#F7F9F5',
+        'chinese-black': '#191919',
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],

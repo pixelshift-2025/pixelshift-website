@@ -8,6 +8,7 @@ export default function Navbar() {
     { name: 'Home', href: '/' },
     { name: 'Services', href: '/services' },
     { name: 'About', href: '/about' },
+    { name: 'FAQ', href: '/faq' },
     { name: 'Contact', href: '/contact' },
   ]
 
@@ -16,7 +17,7 @@ export default function Navbar() {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
-      className="fixed top-0 left-0 right-0 z-50 bg-cultured/90 backdrop-blur-md border-b border-gray-200"
+      className="fixed top-0 left-0 right-0 z-50 bg-chinese-black/90 backdrop-blur-md border-b border-gray-800"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
@@ -25,7 +26,7 @@ export default function Navbar() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <Link href="/" className="text-2xl font-extrabold text-chinese-black">
+            <Link href="/" className="text-2xl font-extrabold text-cultured">
               Pixel<span className="text-fuchsia-pink">Shift</span>
             </Link>
           </motion.div>
@@ -41,7 +42,7 @@ export default function Navbar() {
                 >
                   <Link
                     href={item.href}
-                    className="text-chinese-black hover:text-fuchsia-pink px-3 py-2 rounded-md text-sm font-semibold transition-colors duration-200"
+                    className="text-cultured hover:text-fuchsia-pink px-3 py-2 rounded-md text-sm font-semibold transition-colors duration-200"
                   >
                     {item.name}
                   </Link>

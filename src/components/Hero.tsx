@@ -13,21 +13,20 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-6"
         >
-          <span className="text-chinese-black">Transform Your</span>
-          <br />
           <span className="bg-gradient-to-r from-fuchsia-pink via-blue-purple to-teal-deer bg-clip-text text-transparent">
-            Digital Presence
+            Shift Happens.
           </span>
+          <br />
+          <span className="text-cultured">Make It Count.</span>
         </motion.h1>
         
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto font-regular"
+          className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto font-regular"
         >
-          We craft cutting-edge digital marketing strategies and creative solutions 
-          that shift your brand into the spotlight and drive real results.
+          PixelShift is a digital marketing and creative agency built for bold brands ready to evolve; clearly, confidently, and one pixel at a time.
         </motion.p>
         
         <motion.div
@@ -37,16 +36,16 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <Link
-            href="/services"
+            href="/contact"
             className="bg-gradient-to-r from-fuchsia-pink to-blue-purple text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-lg hover:shadow-fuchsia-pink/25 transition-all duration-300 transform hover:scale-105"
           >
-            Explore Services
+            Start Your Shift
           </Link>
           <Link
-            href="/contact"
-            className="border-2 border-chinese-black text-chinese-black px-8 py-4 rounded-full font-semibold text-lg hover:bg-chinese-black hover:text-cultured transition-all duration-300 transform hover:scale-105"
+            href="/services"
+            className="border-2 border-cultured text-cultured px-8 py-4 rounded-full font-semibold text-lg hover:bg-cultured hover:text-chinese-black transition-all duration-300 transform hover:scale-105"
           >
-            Get Started
+            Explore Services
           </Link>
         </motion.div>
         
@@ -58,15 +57,15 @@ export default function Hero() {
         >
           <div className="text-center">
             <div className="text-3xl font-extrabold text-fuchsia-pink mb-2">50+</div>
-            <div className="text-gray-600 font-semibold">Happy Clients</div>
+            <div className="text-gray-400 font-semibold">Happy Clients</div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-extrabold text-blue-purple mb-2">200%</div>
-            <div className="text-gray-600 font-semibold">Average ROI</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-extrabold text-teal-deer mb-2">24/7</div>
-            <div className="text-gray-600 font-semibold">Support</div>
+                          <div className="text-gray-400 font-semibold">Average ROI</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-extrabold text-teal-deer mb-2">24/7</div>
+              <div className="text-gray-400 font-semibold">Support</div>
           </div>
         </motion.div>
       </div>
